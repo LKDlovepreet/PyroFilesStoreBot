@@ -59,3 +59,12 @@ if 'DYNO' in environ:
 else:
     ON_HEROKU = False
 URL = environ.get("URL", "https://filesstorebot-pmoo.onrender.com")
+sync
+
+eventlet - Requires eventlet >= 0.24.1 (or install it via pip install gunicorn[eventlet])
+
+gevent - Requires gevent >= 1.4 (or install it via pip install gunicorn[gevent])
+
+tornado - Requires tornado >= 0.2 (or install it via pip install gunicorn[tornado])
+
+gthread - Python 2 requires the futures package to be installed (or install it via pip install gunicorn[gthread])
