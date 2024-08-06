@@ -6,7 +6,7 @@ import os
 class Config(object):
 	API_ID = int(os.environ.get("API_ID", "20408350"))
 	API_HASH = os.environ.get("5a82fc4cdb04d5874b77e902ba903271")
-	BOT_TOKEN = os.environ.get("7096813003:AAFgmqcS2OQHRUe3xKurLCnpiuaOb6nVm4Q")
+	BOT_TOKEN = os.environ.get("7096813003:AAESYQivUFwgkolvFVSOO67Hj7UGUV--9JE")
 	BOT_USERNAME = os.environ.get("LKDFILESHARING_01_BOT")
 	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002148823393"))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "7372840699"))
