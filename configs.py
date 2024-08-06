@@ -4,14 +4,14 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
+	API_ID = int(os.environ.get("API_ID", "20408350"))
+	API_HASH = os.environ.get("5a82fc4cdb04d5874b77e902ba903271")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
-	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
+	BOT_USERNAME = os.environ.get("LKDFILESHARING_01_BOT")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002148823393"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "7372840699"))
+	DATABASE_URL = os.environ.get("mongodb+srv://singhlovepreet05198:K6wo5uVJ1PmKl2Li@lkdfilesharing.j5g5msi.mongodb.net/?retryWrites=true&w=majority&appName=LKDFILESHARING")
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002162688170")
 	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
