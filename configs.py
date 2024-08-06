@@ -58,4 +58,4 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "")
+URL = environ.get("URL", "decent-mignon-lkdfilesharing01-12ab969b.koyeb.app/")
